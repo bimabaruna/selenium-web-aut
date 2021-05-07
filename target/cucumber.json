@@ -1,0 +1,261 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-07T12:47:51.051Z",
+        "line": 5,
+        "name": "User want to complete the test",
+        "description": "",
+        "id": "profile-register;user-want-to-complete-the-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161601400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User input title of page",
+            "match": {
+              "location": "HomePlayground.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80091500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input field name with \"Kilgore Trout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kilgore Trout\"",
+                  "offset": 27
+                }
+              ],
+              "location": "HomePlayground.userInputFieldNameWith(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154155400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user set occupation on form to Sci-Fi Author",
+            "match": {
+              "location": "HomePlayground.userSetOccupationOnFormToSciFiAuthor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82331900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User count number of blue box and enter field number",
+            "match": {
+              "location": "HomePlayground.userCountNumberOfBlueBoxAndEnterFieldNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70219900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click link by link text",
+            "match": {
+              "location": "HomePlayground.userClickLinkByLinkText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109234900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User find class to input field",
+            "match": {
+              "location": "HomePlayground.userFindClassToInputField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6463800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User ran JS script",
+            "match": {
+              "location": "HomePlayground.userRanJSScript()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80825200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User ran JS script input class value into field",
+            "match": {
+              "location": "HomePlayground.userRanJSScriptInputClassValueIntoField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57181500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User mark radio button to yes",
+            "match": {
+              "location": "HomePlayground.userMarkRadioButtonToYes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104135000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User get text from red box to input into field",
+            "match": {
+              "location": "HomePlayground.userGetTextFromRedBoxToInputIntoField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136006800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User find which color is on top to input into field",
+            "match": {
+              "location": "HomePlayground.userFindWhichColorIsOnTopToInputIntoField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228106600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User set browser width 850  and height 650",
+            "match": {
+              "arguments": [
+                {
+                  "val": "850",
+                  "offset": 23
+                },
+                {
+                  "val": "650",
+                  "offset": 39
+                }
+              ],
+              "location": "HomePlayground.userSetBrowserWidthAndHeight(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10155283000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is there item with id on the page",
+            "match": {
+              "location": "HomePlayground.userIsThereItemWithIdOnThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6249663400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User check if purple box visible or not",
+            "match": {
+              "location": "HomePlayground.userCheckIfPurpleBoxVisibleOrNot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6571748100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User click link then wait until new link appear then click",
+            "match": {
+              "location": "HomePlayground.userClickLinkThenWaitUntilNewLinkAppearThenClick()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28635400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click Ok after complete",
+            "match": {
+              "location": "HomePlayground.userClickOkAfterComplete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10155703100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click submit",
+            "match": {
+              "location": "HomePlayground.userClickSubmit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Profile Register",
+    "description": "",
+    "id": "profile-register",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/TestSelenium.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
